@@ -57,7 +57,7 @@ document.querySelector(".header-language-btn").addEventListener("click", () => {
 });
 
 document.querySelector(".language-kz").addEventListener("click", () => {
-  document.querySelector(".header-language-btn img").src = "image/icons/kz.svg";
+  document.querySelector(".header-language-btn img").src = "images/icons/kz.svg";
   document.querySelector(".chevron").classList.remove("chevron-rotate");
   document.querySelector(".header-language-select").classList.remove("header-language-list");
   document.querySelector(".language-kz").classList.remove("header-language-option-list");
@@ -65,7 +65,7 @@ document.querySelector(".language-kz").addEventListener("click", () => {
   document.querySelector(".language-ru").classList.remove("header-language-option-list");
 });
 document.querySelector(".language-en").addEventListener("click", () => {
-  document.querySelector(".header-language-btn img").src = "image/icons/en.svg";
+  document.querySelector(".header-language-btn img").src = "images/icons/en.svg";
   document.querySelector(".chevron").classList.remove("chevron-rotate");
   document.querySelector(".header-language-select").classList.remove("header-language-list");
   document.querySelector(".language-kz").classList.remove("header-language-option-list");
@@ -73,7 +73,7 @@ document.querySelector(".language-en").addEventListener("click", () => {
   document.querySelector(".language-ru").classList.remove("header-language-option-list");
 });
 document.querySelector(".language-ru").addEventListener("click", () => {
-  document.querySelector(".header-language-btn img").src = "image/icons/ru.svg";
+  document.querySelector(".header-language-btn img").src = "images/icons/ru.svg";
   document.querySelector(".chevron").classList.remove("chevron-rotate");
   document.querySelector(".header-language-select").classList.remove("header-language-list");
   document.querySelector(".language-kz").classList.remove("header-language-option-list");
