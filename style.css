@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6, a, p, small {
   height: 100vh;
   display: block;
   text-align: center;
-  background-color: rgb(98, 85, 98);
+  /* background-color: rgb(98, 85, 98); */
   font-size: 30px;
   font-weight: 900;
   font-family: sans-serif;
