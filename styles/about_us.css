@@ -1,0 +1,11 @@
+
+
+.about_img {
+    width: 100%;
+    position: relative;
+    height: 100%;
+}
+
+.about_img img {
+    width: 80%;
+}
