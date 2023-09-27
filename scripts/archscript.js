@@ -1,4 +1,16 @@
-document.querySelector(".link-product").addEventListener("click", () => {
+let link_certificate = document.querySelector(".link-certificate");
+let link_product = document.querySelector(".link-product");
+let link_history = document.querySelector(".link-history");
+let link_contact = document.querySelector(".link-contact");
+let link_about = document.querySelector(".link-about");
+
+let menu_link_certificate = document.querySelector(".m-link-certificate");
+let menu_link_product = document.querySelector(".m-link-product");
+let menu_link_history = document.querySelector(".m-link-history");
+let menu_link_contact = document.querySelector(".m-link-contact");
+let menu_link_about = document.querySelector(".m-link-about");
+
+link_product.addEventListener("click", () => {
   document.querySelector("#main_page").style.display = "none";
   document.querySelector("#about_us").style.display = "none";
   document.querySelector("#history").style.display = "none";
@@ -6,7 +18,7 @@ document.querySelector(".link-product").addEventListener("click", () => {
   document.querySelector("#contacts").style.display = "none";
   document.querySelector("#our_products").style.display = "block";
 });
-document.querySelector(".link-history").addEventListener("click", () => {
+link_history.addEventListener("click", () => {
   document.querySelector("#main_page").style.display = "none";
   document.querySelector("#about_us").style.display = "none";
   document.querySelector("#history").style.display = "block";
@@ -14,7 +26,7 @@ document.querySelector(".link-history").addEventListener("click", () => {
   document.querySelector("#contacts").style.display = "none";
   document.querySelector("#our_products").style.display = "none";
 });
-document.querySelector(".link-certificate").addEventListener("click", () => {
+link_certificate.addEventListener("click", () => {
   document.querySelector("#main_page").style.display = "none";
   document.querySelector("#about_us").style.display = "none";
   document.querySelector("#history").style.display = "none";
@@ -22,7 +34,7 @@ document.querySelector(".link-certificate").addEventListener("click", () => {
   document.querySelector("#contacts").style.display = "none";
   document.querySelector("#our_products").style.display = "none";
 });
-document.querySelector(".link-contact").addEventListener("click", () => {
+link_contact.addEventListener("click", () => {
   document.querySelector("#main_page").style.display = "none";
   document.querySelector("#about_us").style.display = "none";
   document.querySelector("#history").style.display = "none";
@@ -30,7 +42,7 @@ document.querySelector(".link-contact").addEventListener("click", () => {
   document.querySelector("#contacts").style.display = "block";
   document.querySelector("#our_products").style.display = "none";
 });
-document.querySelector(".link-about").addEventListener("click", () => {
+link_about.addEventListener("click", () => {
   document.querySelector("#main_page").style.display = "none";
   document.querySelector("#about_us").style.display = "block";
   document.querySelector("#history").style.display = "none";
@@ -45,6 +57,61 @@ document.querySelector(".header-logo img").addEventListener("click", () => {
   document.querySelector("#certificates").style.display = "none";
   document.querySelector("#contacts").style.display = "none";
   document.querySelector("#our_products").style.display = "none";
+});
+
+menu_link_product.addEventListener("click", () => {
+  document.querySelector("#main_page").style.display = "none";
+  document.querySelector("#about_us").style.display = "none";
+  document.querySelector("#history").style.display = "none";
+  document.querySelector("#certificates").style.display = "none";
+  document.querySelector("#contacts").style.display = "none";
+  document.querySelector("#our_products").style.display = "block";
+  document.querySelector(".header-menu").style.top = "-310px";
+});
+menu_link_history.addEventListener("click", () => {
+  document.querySelector("#main_page").style.display = "none";
+  document.querySelector("#about_us").style.display = "none";
+  document.querySelector("#history").style.display = "block";
+  document.querySelector("#certificates").style.display = "none";
+  document.querySelector("#contacts").style.display = "none";
+  document.querySelector("#our_products").style.display = "none";
+  document.querySelector(".header-menu").style.top = "-310px";
+});
+menu_link_certificate.addEventListener("click", () => {
+  document.querySelector("#main_page").style.display = "none";
+  document.querySelector("#about_us").style.display = "none";
+  document.querySelector("#history").style.display = "none";
+  document.querySelector("#certificates").style.display = "block";
+  document.querySelector("#contacts").style.display = "none";
+  document.querySelector("#our_products").style.display = "none";
+  document.querySelector(".header-menu").style.top = "-310px";
+});
+menu_link_contact.addEventListener("click", () => {
+  document.querySelector("#main_page").style.display = "none";
+  document.querySelector("#about_us").style.display = "none";
+  document.querySelector("#history").style.display = "none";
+  document.querySelector("#certificates").style.display = "none";
+  document.querySelector("#contacts").style.display = "block";
+  document.querySelector("#our_products").style.display = "none";
+  document.querySelector(".header-menu").style.top = "-310px";
+});
+menu_link_about.addEventListener("click", () => {
+  document.querySelector("#main_page").style.display = "none";
+  document.querySelector("#about_us").style.display = "block";
+  document.querySelector("#history").style.display = "none";
+  document.querySelector("#certificates").style.display = "none";
+  document.querySelector("#contacts").style.display = "none";
+  document.querySelector("#our_products").style.display = "none";
+  document.querySelector(".header-menu").style.top = "-310px";
+});
+document.querySelector(".header-logo img").addEventListener("click", () => {
+  document.querySelector("#main_page").style.display = "block";
+  document.querySelector("#about_us").style.display = "none";
+  document.querySelector("#history").style.display = "none";
+  document.querySelector("#certificates").style.display = "none";
+  document.querySelector("#contacts").style.display = "none";
+  document.querySelector("#our_products").style.display = "none";
+  document.querySelector(".header-menu").style.top = "-310px";
 });
 
 
