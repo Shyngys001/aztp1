@@ -15,6 +15,7 @@
   line-height: 40px;
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
   transition: all 0.3s;
+  z-index: 10;
 }
 
 .header-menu-close {
@@ -120,6 +121,7 @@ header nav ul {
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
   border-radius: 5px;
   overflow: hidden;
+  z-index: 10;
 }
 
 .header-language-list {

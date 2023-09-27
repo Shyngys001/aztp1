@@ -1,5 +1,7 @@
 @import url("styles/header.css");
 @import url("styles/footer.css");
+
+@import url("styles/main-page.css");
 @import url("styles/about_us.css");
 
 @import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
@@ -13,14 +15,16 @@
   list-style: none;
 }
 
+h1, h2, h3, h4, h5, h6, a, p, small {
+  font-family: 'Archivo', sans-serif;
+}
+
 #about_us, 
 #history, 
 #our_products, 
 #certificates, 
 #contacts {
   display: none;
-  font-family: 'Archivo', sans-serif;
-
 }
 
 /* ===>> KEREK EMES CODE ↓ <<=== */
@@ -30,7 +34,6 @@
   height: 100vh;
   display: block;
   text-align: center;
-  /* padding-top: 200px; */
   background-color: rgb(98, 85, 98);
   font-size: 30px;
   font-weight: 900;
