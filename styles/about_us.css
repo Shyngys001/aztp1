@@ -1,11 +1,21 @@
-
+#about_us {
+    height: 200vh;
+}
 
 .about_img {
-    width: 100%;
+    width: 90%;
     position: relative;
     height: 100%;
+    margin: 0 auto;
 }
 
 .about_img img {
-    width: 80%;
+    width: 100%;
 }
+
+.about_second {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+}
+
