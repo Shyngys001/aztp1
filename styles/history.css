@@ -1,0 +1,135 @@
+#history {
+    height: 250vh;
+    color: black;
+}
+
+.history img {
+    width: 80%;
+}
+
+.history p {
+    color: black;
+}
+
+.history_first {
+    display: flex;
+    width: 80%;
+    margin-top: 50px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+#his1 {
+    font-size: 35px;
+    width: 50%;
+    text-align: start;
+}
+
+#his2 {
+    font-size: 20px;
+    width: 70%;
+    text-align: start;
+}
+
+
+.his_years,  .his_years2{
+    width: 40%;
+    margin: 0 auto;
+}
+.his_years2 {
+    margin-top: 90px;
+}
+
+
+.his_year {
+    display: flex;
+}
+
+#y2016_1, #y2017_1, #y2018_1, #y2019_1, #y2020_1, #y2021_1 {
+    color: #FF9900;
+    font-size: 45px;
+}
+
+#y2016_2, #y2017_2, #y2018_2, #y2019_2, #y2020_2, #y2021_2 {
+    font-size: 20px;
+    width: 100%;
+}
+
+.y1, .y2, .y3, .y4, .y5, .y6 {
+    display: block;
+    text-align: start;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.y2, .y4, .y6 {
+    margin-top: 90px;
+}
+
+.y1, .y3, .y5 {
+    margin-top: 90px;
+}
+
+
+
+
+@media(max-width: 800px) {
+    #his1 {
+        font-size: 10px;
+    }
+    
+    #his2 {
+        font-size: 8px;
+        text-align: start;
+    }
+
+    .his_years,  .his_years2{
+        width: 40%;
+        margin: 0 auto;
+    }
+    .his_years2 {
+        margin-top: 40px;
+    }
+    
+    
+    .his_year {
+        display: flex;
+    }
+    
+    #y2016_1, #y2017_1, #y2018_1, #y2019_1, #y2020_1, #y2021_1 {
+        color: #FF9900;
+        font-size: 20px;
+    }
+    
+    #y2016_2, #y2017_2, #y2018_2, #y2019_2, #y2020_2, #y2021_2 {
+        font-size: 9px;
+        width: 100%;
+    }
+    
+    .y1, .y2, .y3, .y4, .y5, .y6 {
+        display: block;
+        text-align: start;
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .y2, .y4, .y6 {
+        margin-top: 40px;
+    }
+    
+    .y1, .y3, .y5 {
+        margin-top: 40px;
+    }
+
+    #history {
+        height: 140vh;
+    }
+}
+
+
+/* 
+@media(min-height: 370px) {
+    #history {
+        height: 200vh;
+    }
+} */
