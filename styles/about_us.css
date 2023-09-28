@@ -82,7 +82,7 @@
         font-size: 25px;
         margin: 0 auto;
         text-align: center;
-        width: 50%;
+        width: 100%;
     }
     #about_us {
         height: 140vh;
@@ -109,7 +109,7 @@
 
     #about_protect, #about_there, #about_customers, #about_each {
         font-size: 12px;
-        width: 60%;
+        width: 100%;
         margin: 0 auto;
         text-align: center;
 
