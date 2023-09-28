@@ -5,7 +5,7 @@ footer {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  background-color: #000000;
+  background-color: #1B1A1A;
   color: #FFFFFF;
   padding: 10px;
   gap: 20px;
@@ -24,6 +24,14 @@ footer {
 
 .footer-logo a {
   color: #FFFFFF;
+}
+
+.footer-info {
+  width: 40%;
+  min-width: 100px;
+  gap: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer-link {
@@ -47,7 +55,6 @@ footer {
 .footer-logo, 
 .footer-link a, 
 .footer-contact {
-  font-family: sans-serif;
   color: #FFFFFF;
 }
 
@@ -58,12 +65,28 @@ footer {
   transform: scale(1.2);
 }
 
-
-@media(max-width: 800px) {
-  .footer-logo {
-    width: 50px;
-    height: 50px;
+@media screen and (max-width: 900px) {
+  footer {
+    justify-content: center;
+    flex-direction: column;
   }
 
-  
+  .footer-info {
+    width: 80%;
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  footer {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .footer-info {
+    text-align: center;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
 }
