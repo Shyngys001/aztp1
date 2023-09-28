@@ -36,8 +36,9 @@
 }
 
 #second_1 {
-    font-size: 30px;
-    width: 30%;
+    font-size: 35px;
+    width: 50%;
+    font-weight: 600;
     display: flex;
     align-items: center;
 
@@ -55,13 +56,13 @@
 .about_third {
     height: 100vh;
     text-align: left;
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
     margin-top: 100px;
 }
 
 .about_third > div {
-    margin-top: 30px;    
+    margin-top: 60px;    
 }
 
 
