@@ -1,18 +1,25 @@
 
 #about_us {
+    width: 100%;
+  height: 100vh;
+  /* background-color: rgb(98, 85, 98); */
+  font-size: 30px;
+  font-weight: 900;
+  font-family: sans-serif;
+  color: #FFFFFF;
     height: 200vh;
     align-items: center;
     color: black;
 }
 
 .about_img {
-    width: 100%;
+    width: 80%;
     position: relative;
     margin: 0 auto;
 }
 
 .about_img img {
-    width: 90%;
+    width: 100%;
 }
 
 .about_second {
@@ -58,11 +65,11 @@
 
 #about_mission, #about_realize, #about_assist, #about_appreciate {
     color: #FF9900;
-    font-size: 30px;
+    font-size: 60px;
 }
 
 #about_protect, #about_there, #about_customers, #about_each {
-    font-size: 15px;
+    font-size: 35px;
     width: 30%;
 }
 
@@ -74,7 +81,13 @@
 }
 
 @media (max-width: 768px) {
-    
+    #about_mission, #about_realize, #about_assist, #about_appreciate {
+        color: #FF9900;
+        font-size: 25px;
+        margin: 0 auto;
+        text-align: center;
+        width: 50%;
+    }
     #about_us {
         height: 140vh;
         align-items: center;
@@ -101,11 +114,15 @@
     #about_protect, #about_there, #about_customers, #about_each {
         font-size: 12px;
         width: 60%;
+        margin: 0 auto;
+        text-align: center;
+
+
     }
 }
 
 @media(max-height: 400px) {
     #about_us {
-        height: 330vh;
+        height: 240vh;
     }
 }

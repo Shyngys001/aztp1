@@ -1,10 +1,14 @@
 #history {
     height: 250vh;
     color: black;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .history img {
-    width: 80%;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 50px;
 }
 
 .history p {
@@ -124,12 +128,28 @@
     #history {
         height: 140vh;
     }
+    
+    .history_first {
+        display: block;
+        margin-bottom: 0;
+    }
+
+    #his1 {
+        font-size: 25px;
+        width: 100%;
+        text-align: center;
+    }
+
+    #his2 {
+        font-size: 10px;
+        width: 100%;
+        text-align: center;
+    }
 }
 
 
-/* 
-@media(min-height: 370px) {
+@media(max-height: 400px) {
     #history {
-        height: 200vh;
+        height: 240vh;
     }
-} */
+}
