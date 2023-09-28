@@ -76,7 +76,7 @@
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     #about_mission, #about_realize, #about_assist, #about_appreciate {
         color: #FF9900;
         font-size: 25px;
