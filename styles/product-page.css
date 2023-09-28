@@ -63,7 +63,6 @@
 .expe-back, .pipeline-back {
   width: 200%;
   height: calc(15vw + 25vh);
-  background-color: red;
 }
 
 .expe-back img, .pipeline-back img {
