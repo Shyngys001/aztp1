@@ -32,3 +32,54 @@ language_ru.addEventListener("click", () => {
 
 
 
+language_en.addEventListener("click", () => {
+    link_product.textContent = "Our products and services";
+    link_history.textContent = "Our history";
+    link_certificate.textContent = "Certificates";
+    link_contact.textContent = "Contacts";
+    link_about.textContent = "About Us";
+
+    menu_link_product.textContent = "Our products and services";
+    menu_link_history.textContent = "Our history";
+    menu_link_certificate.textContent = "Certificates";
+    menu_link_contact.textContent = "Contacts";
+    menu_link_about.textContent = "About Us";
+
+    second_1.textContent = "Aktau pipe production plant";
+    second_2.textContent = "Aktau Pipe Production Plant specializes in tubing production and repair, offering cost-effective solutions that minimize downtime and protect pipelines from corrosion and wear.";
+    about_mission.textContent = "The mission of our company";
+    about_protect.textContent = "Is to protect the work of a Person, the equipment on which he works while protecting the nature and the environment";
+    about_realize.textContent = "We realize";
+    about_there.textContent = "That there is a Person behind every drop of the oil produced";
+    about_assist.textContent = "We assist";
+    about_customers.textContent = "Customers in improving equipment efficiency, saving resources and minimizing losses in oil production";
+    about_appreciate.textContent = "We appreciate";
+    about_each.textContent = "Each and every one of our customers and their equipment";
+});
+
+
+
+language_kz.addEventListener("click", () => {
+    link_product.textContent = "Біздің өнімдер мен қызметтер";
+    link_history.textContent = "Біздің тарих";
+    link_certificate.textContent = "Сертификаттар";
+    link_contact.textContent = "Контактілер";
+    link_about.textContent = "Біз туралы";
+
+    menu_link_product.textContent = "Біздің өнімдер мен қызметтер";
+    menu_link_history.textContent = "Біздің тарих";
+    menu_link_certificate.textContent = "Сертификаттар";
+    menu_link_contact.textContent = "Контактілер";
+    menu_link_about.textContent = "Біз туралы";
+
+    second_1.textContent = "Ақтау құбыр өндіру зауыты";
+    second_2.textContent = "Ақтау құбыр зауыты сорғы-компрессорлық құбырларды өндіруге және жөндеуге маманданған, тоқтап қалу уақытын азайтатын және құбырларды коррозиядан және тозудан қорғайтын үнемді шешімдерді ұсынады.";
+    about_mission.textContent = "Біздің компанияның миссиясы";
+    about_protect.textContent = "Табиғат пен қоршаған ортаны қорғаумен қатар адамның, ол жұмыс істейтін жабдықтың еңбегін қорғаудан тұрады";
+    about_realize.textContent = "Біз білеміз";
+    about_there.textContent = "Өндірілген  әр тамшы мұнайдың артында бір адам тұрғанын ";
+    about_assist.textContent = "Біз көмектесеміз";
+    about_customers.textContent = "Клиенттер жабдығының тиімділігін арттыруға, ресурстарды үнемдеуге және мұнай өндірудегі шығындарды азайтуға";
+    about_appreciate.textContent = "Біз бағалаймыз";
+    about_each.textContent = "Біздің клиенттеріміздің әрқайсысын және олардың жабдықтарын";
+});
