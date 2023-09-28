@@ -3,6 +3,7 @@
 
 @import url("styles/main-page.css");
 @import url("styles/product-page.css");
+@import url("styles/contact-page.css");
 
 @import url("styles/about_us.css");
 @import url("styles/history.css");
@@ -28,19 +29,4 @@ h1, h2, h3, h4, h5, h6, a, p, small {
 #certificates, 
 #contacts {
   display: none;
-}
-
-/* ===>> KEREK EMES CODE ↓ <<=== */
-
-.pages {
-  width: 100%;
-  height: 100vh;
-  display: block;
-  text-align: center;
-  /* background-color: rgb(98, 85, 98); */
-  font-size: 30px;
-  font-weight: 900;
-  font-family: sans-serif;
-  text-transform: uppercase;
-  color: #FFFFFF;
 }
