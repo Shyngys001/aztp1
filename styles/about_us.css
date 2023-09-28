@@ -1,19 +1,20 @@
 
 #about_us {
-    width: 100%;
+    width: 70%;
   height: 100vh;
   /* background-color: rgb(98, 85, 98); */
   font-size: 30px;
   font-weight: 900;
   font-family: sans-serif;
   color: #FFFFFF;
-    height: 200vh;
+    height: 250vh;
     align-items: center;
     color: black;
+    margin: 0 auto;
 }
 
 .about_img {
-    width: 80%;
+    width: 100%;
     position: relative;
     margin: 0 auto;
 }
@@ -35,7 +36,7 @@
 }
 
 #second_1 {
-    font-size: 50px;
+    font-size: 30px;
     width: 30%;
     display: flex;
     align-items: center;
@@ -52,33 +53,28 @@
 
 
 .about_third {
-    height: 50vh;
+    height: 100vh;
     text-align: left;
-    width: 90%;
+    width: 50%;
     margin: 0 auto;
     margin-top: 100px;
 }
 
 .about_third > div {
-    margin-top: 30px;
+    margin-top: 30px;    
 }
+
 
 #about_mission, #about_realize, #about_assist, #about_appreciate {
     color: #FF9900;
-    font-size: 60px;
+    font-size: 40px;
 }
 
 #about_protect, #about_there, #about_customers, #about_each {
     font-size: 35px;
-    width: 30%;
+    width: 100%;
 }
 
-
-@media (max-width: 1400px) { 
-    #about_us {
-        height: 150vh;
-    }
-}
 
 @media (max-width: 768px) {
     #about_mission, #about_realize, #about_assist, #about_appreciate {
@@ -124,5 +120,11 @@
 @media(max-height: 400px) {
     #about_us {
         height: 240vh;
+    }
+}
+
+@media (max-width: 1008px) {
+    #history {
+        height: 10vh;
     }
 }

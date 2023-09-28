@@ -1,0 +1,95 @@
+
+#certificates {
+    width: 100%;
+    height: 100vh;
+}
+
+#certificates_patents {
+    color: #FF9900;
+    text-align: center;
+    font-size: 50px;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.certificates_background {
+    background-image: url("../images/office\ 1.png");
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: fill;
+    display: flex;
+    align-items: center;
+}
+
+.certificates_back {
+    background-color: rgba(255, 255, 255, 0.756);
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    height: 40vh;
+    align-items: center;
+}
+
+.certificates_p1, .certificates_p2 {
+    width: 40%;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    height: 70%;
+}
+
+
+#stkz, #patent {
+    color: #FF9900;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.certificate_image {
+    position: absolute;
+    width: 120px;
+    left: 13%;
+    top: 90%;
+}
+
+
+@media(max-width: 800px) {
+    #certificates_patents {
+        font-size: 30px;
+        width: 80%;
+    }
+    
+    .certificates_back {
+        width: 100%;
+    }
+
+    .certificates_p1, .certificates_p2 {
+        width: 40%;
+        font-size: 10px;
+    }
+    
+    #stkz, #patent {
+        font-size: 20px;
+    }
+
+}
+
+@media(max-height: 450px){
+    #certificates {
+        height: 140vh;
+    }
+    .certificates_back {
+        height: 80vh;
+    }
+    .certificate_image {
+        left: 2%;
+        top: 95%;
+    }
+    .certificates_p1, .certificates_p2 {
+        font-size: 13px;
+    }
+}
