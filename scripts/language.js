@@ -143,7 +143,7 @@ language_ru.addEventListener("click", () => {
     certificatt5.textContent = "Патент на трубы, футерованные полиэтиленом EXPE, № 4391 получен ТОО «АЗТП – Актауский трубный завод» и зарегистрирован в Государственном реестре полезных моделей Республики Казахстан 24 октября 2019 года. Патент выдан РГП «Национальный Институт интеллектуальной собственности» и доступен на веб-портале РГП «НИИС» в разделе «Государственные реестры полезных моделей Республики Казахстан».";
 
     main_t1.textContent = "Актауский трубный завод";
-    main_t2.textContent = "";
+    main_t2.textContent = "Актауский завод по производству труб специализируется при производстве и ремонте труб мы предлагаем экономически эффективные решения, которые сводят к минимуму время простоя и защищают трубопроводы от коррозии и износа.";
     main_t3.textContent = "Подробнее о компании →";
     main_t4.textContent = "Услуги и преимущества компании";
     main_t5.textContent = "Актауский трубный завод специализируется на производстве и ремонте труб, предлагая экономичные решения, позволяющие минимизировать время простоя и защитить трубопроводы от коррозии и износа.";
@@ -248,7 +248,7 @@ language_en.addEventListener("click", () => {
     certificatt5.textContent = "Patent for tubing lined with EXPE polyethylene, No. 4391 was obtained by AZTP - Aktau Pipe Production Plant LLP and registered in the State Register of Utility Models of the Republic of Kazakhstan on October 24, 2019. The patent was issued by the RSE «National Institute of Intellectual Property» and is available on the web portal of the RSE «NIIP» in the section «State Registers of Utility Models of the Republic of Kazakhstan";
 
     main_t1.innerHTML = "Aktau pipe<br>production plant";
-    main_t2.textContent = "";
+    main_t2.textContent = "Aktau Pipe Production Plant specializes in tubing production and repair, offering cost-effective solutions that minimize downtime and protect pipelines from corrosion and wear.";
     main_t3.textContent = "More about company →";
     main_t4.textContent = "Company's services and benefits";
     main_t5.textContent = "Aktau Pipe Production Plant specializes in tubing production and repair, offering cost-effective solutions that minimize downtime and protect pipelines from corrosion and wear.";
@@ -300,7 +300,7 @@ language_kz.addEventListener("click", () => {
     }
 
     if (window.matchMedia("(max-height: 400px)").matches) {
-        about_us.style.height = "330vh";
+        about_us.style.height = "280vh";
     }
     if (window.matchMedia("(max-width: 900px)").matches) {
         history.style.height = "180vh";
@@ -354,7 +354,7 @@ language_kz.addEventListener("click", () => {
     certificatt5.textContent = "EXPE полиэтиленімен қапталған құбырларға патент, № 4391 «AZTP - «Ақтау құбыр өндіру зауыты» ЖШС алды және 2019 жылғы 24 қазанда Қазақстан Республикасының Пайдалы модельдердің мемлекеттік тізілімінде тіркелді. Патент «Ұлттық Зияткерлік меншік институты» және «ҰЗМИ» РМК веб-порталында «Қазақстан Республикасының пайдалы модельдерінің мемлекеттік тізілімдері» бөлімінде қолжетімді.";
 
     main_t1.textContent = "Ақтау құбыр шығаратын зауыт";
-    main_t2.textContent = "";
+    main_t2.textContent = "Ақтау құбыр зауыты сорғы-компрессорлық құбырларды өндіруге және жөндеуге маманданған, тоқтап қалу уақытын азайтатын және құбырларды коррозиядан және тозудан қорғайтын үнемді шешімдерді ұсынады.";
     main_t3.textContent = "Компания туралы толығырақ →";
     main_t4.textContent = "Компанияның қызметтері мен артықшылықтары";
     main_t5.textContent = "Ақтау құбыр өндірісі зауыты құбырларды өндіруге және жөндеуге маманданған, тоқтап қалуды азайтатын және құбырларды коррозия мен тозудан қорғайтын үнемді шешімдерді ұсынады.";

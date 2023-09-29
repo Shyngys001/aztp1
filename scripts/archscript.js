@@ -3,13 +3,33 @@ let link_product = document.querySelector(".link-product");
 let link_history = document.querySelector(".link-history");
 let link_contact = document.querySelector(".link-contact");
 let link_about = document.querySelector(".link-about");
+let link_aztp = document.querySelector(".link-aztp");
 
 let menu_link_certificate = document.querySelector(".m-link-certificate");
 let menu_link_product = document.querySelector(".m-link-product");
 let menu_link_history = document.querySelector(".m-link-history");
 let menu_link_contact = document.querySelector(".m-link-contact");
 let menu_link_about = document.querySelector(".m-link-about");
+let menu_link_aztp = document.querySelector(".m-link-aztp");
 
+link_aztp.addEventListener("click", () => {
+  document.querySelector("#main_page").style.display = "none";
+  document.querySelector("#about_us").style.display = "none";
+  document.querySelector("#history").style.display = "none";
+  document.querySelector("#certificates").style.display = "none";
+  document.querySelector("#contacts").style.display = "none";
+  document.querySelector("#our_products").style.display = "none";
+  document.querySelector("#main_page").style.display = "block";
+});
+menu_link_aztp.addEventListener("click", () => {
+  document.querySelector("#main_page").style.display = "none";
+  document.querySelector("#about_us").style.display = "none";
+  document.querySelector("#history").style.display = "none";
+  document.querySelector("#certificates").style.display = "none";
+  document.querySelector("#contacts").style.display = "none";
+  document.querySelector("#our_products").style.display = "none";
+  document.querySelector("#main_page").style.display = "block";
+});
 link_product.addEventListener("click", () => {
   document.querySelector("#main_page").style.display = "none";
   document.querySelector("#about_us").style.display = "none";
