@@ -52,9 +52,9 @@
 
 .certificate_image {
     position: absolute;
-    width: 120px;
+    width: 70px;
     left: 13%;
-    top: 90%;
+    top: 100%;
 }
 
 
@@ -88,7 +88,7 @@
     }
     .certificate_image {
         left: 2%;
-        top: 95%;
+        top: 125%;
     }
     .certificates_p1, .certificates_p2 {
         font-size: 13px;
