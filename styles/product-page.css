@@ -10,7 +10,7 @@
 }
 
 .our_products h2 {
-  font-size: calc(18px + 1.2vw + 1.2vh);
+  font-size: calc(10px + 1.2vw + 1.2vh);
   color: #FF9900;
   margin: 2%;
 }
@@ -24,6 +24,7 @@
 .our_products p {
   font-size: calc(14px + 0.25vw + 0.25vh);
   margin: 2%;
+  color: rgb(255, 232, 232);
 }
 
 .products {
@@ -45,10 +46,10 @@
 
 .product-front {
   position: absolute;
-  width: 50%; height: 80%;
+  width: 50%; height: 85%;
   top: 50%; left: 5%;
   transform: translateY(-50%);
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(0, 0, 0, 0.589);
   display: grid;
   padding: 5%;
 }
@@ -177,6 +178,8 @@
     padding: 5%;
     margin-bottom: 30%;
   }
+
+  
 }
 
 @media screen and (max-height: 800px) {
@@ -193,4 +196,5 @@
     width: 90%; height: 80%;
     transform: translateY(-50%);
   }
+  
 }
