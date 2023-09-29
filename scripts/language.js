@@ -80,8 +80,24 @@ let contact2 = document.querySelector(".contact_txt2");
 let foott = document.querySelector(".footer_txt");
 
 
+let history = document.getElementById("history")
 // russian language
 language_ru.addEventListener("click", () => {
+    if (window.matchMedia("(max-width: 900px)").matches) {
+        about_us.style.height = "200vh";
+    }
+    if (window.matchMedia("(max-height: 400px)").matches) {
+        about_us.style.height = "330vh";
+    }
+
+    if (window.matchMedia("(max-width: 900px)").matches) {
+        history.style.height = "180vh";
+    }
+    if (window.matchMedia("(max-height: 400px)").matches) {
+        history.style.height = "270vh";
+    }
+    
+
     link_product.textContent = "Наши продукты и услуги";
     link_history.textContent = "Наша история";
     link_certificate.textContent = "Сертификаты";
@@ -174,6 +190,19 @@ language_ru.addEventListener("click", () => {
 
 // english language
 language_en.addEventListener("click", () => {
+    if (window.matchMedia("(max-width: 900px)").matches) {
+        about_us.style.height = "140vh";
+    }
+    if (window.matchMedia("(max-height: 400px)").matches) {
+        about_us.style.height = "240vh";
+    }
+    if (window.matchMedia("(max-width: 900px)").matches) {
+        history.style.height = "140vh";
+    }
+    if (window.matchMedia("(max-height: 400px)").matches) {
+        history.style.height = "240vh";
+    }
+
     link_product.textContent = "Our products and services";
     link_history.textContent = "Our history";
     link_certificate.textContent = "Certificates";
@@ -266,6 +295,20 @@ language_en.addEventListener("click", () => {
 
 // kazakh language
 language_kz.addEventListener("click", () => {
+    if (window.matchMedia("(max-width: 900px)").matches) {
+        about_us.style.height = "200vh";
+    }
+
+    if (window.matchMedia("(max-height: 400px)").matches) {
+        about_us.style.height = "330vh";
+    }
+    if (window.matchMedia("(max-width: 900px)").matches) {
+        history.style.height = "180vh";
+    }
+    if (window.matchMedia("(max-height: 400px)").matches) {
+        history.style.height = "270vh";
+    }
+
     link_product.textContent = "Біздің өнімдер мен қызметтер";
     link_history.textContent = "Біздің тарих";
     link_certificate.textContent = "Сертификаттар";
