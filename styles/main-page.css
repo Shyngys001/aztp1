@@ -9,7 +9,7 @@
 }
 
 .main_page h3 {
-  font-size: calc(16px + 1.5vw + 1.5vh);
+  font-size: calc(14px + 1.5vw + 1.5vh);
   color: #FF9900;
 }
 
@@ -123,7 +123,8 @@
 }
 
 .main-content-info-text ul {
-  padding: calc(10px + 1.5vw + 1.5vh) calc(10px + 2vw + 2vh);
+  padding: calc(10px + 1.5vw + 1.5vh) 0;
+
 }
 
 .main-content-info-text li {
@@ -196,6 +197,12 @@
   .main-front-bottom {
     display: none;
   }
+  .main_page h3 {
+    font-size: calc(10px + 1.5vw + 1.5vh);
+    color: #FF9900;
+    text-align: center;
+  }
+  
 }
 
 @media screen and (max-width: 600px) {
