@@ -7,6 +7,7 @@
   font-size: calc(18px + 1.5vw + 1.5vh);
   color: #FF9900;
   margin: 2%;
+  text-transform: uppercase;
 }
 
 .our_products h2 {
@@ -135,6 +136,7 @@
 @media screen and (max-width: 800px) {
   .our_products h1 {
     margin: 5%;
+    font-size: 25px;
   }
 
   .product-expe, 
