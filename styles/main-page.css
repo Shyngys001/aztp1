@@ -202,7 +202,12 @@
     color: #FF9900;
     text-align: center;
   }
-  
+  video {
+    width: 200PX;
+
+  }
+  .video {
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -247,4 +252,10 @@
     top: 50%; left: 50%;
     transform: translate(-50%, 0%);
   }
+}
+
+
+.video {
+  margin: 0 auto;
+  text-align: center;
 }

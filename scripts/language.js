@@ -3,6 +3,9 @@ let language_en = document.querySelector(".language-en");
 let language_ru = document.querySelector(".language-ru");
 
 
+let video = document.getElementById("videoPlayer");
+let videoSource = document.getElementById("videoSource");
+
 // history
 let his1 = document.getElementById("his1");
 let his2 = document.getElementById("his2");
@@ -83,6 +86,10 @@ let foott = document.querySelector(".footer_txt");
 let history = document.getElementById("history")
 // russian language
 language_ru.addEventListener("click", () => {
+    videoSource.src = "videos/SHORT with text (RU).mp4";
+    video.load();
+    
+
     if (window.matchMedia("(max-width: 900px)").matches) {
         about_us.style.height = "200vh";
     }
@@ -190,6 +197,9 @@ language_ru.addEventListener("click", () => {
 
 // english language
 language_en.addEventListener("click", () => {
+    videoSource.src = "videos/SHORT with text (ENG).mp4";
+    video.load();
+    
     if (window.matchMedia("(max-width: 900px)").matches) {
         about_us.style.height = "140vh";
     }
@@ -295,6 +305,9 @@ language_en.addEventListener("click", () => {
 
 // kazakh language
 language_kz.addEventListener("click", () => {
+    videoSource.src = "videos/SHORT with text (KZ).mp4";
+    video.load();
+    
     if (window.matchMedia("(max-width: 900px)").matches) {
         about_us.style.height = "200vh";
     }
