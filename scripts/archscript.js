@@ -12,6 +12,21 @@ let menu_link_contact = document.querySelector(".m-link-contact");
 let menu_link_about = document.querySelector(".m-link-about");
 let menu_link_aztp = document.querySelector(".m-link-aztp");
 
+let videodiv = document.querySelector(".video");
+let close = document.querySelector(".close");
+let more = document.querySelector(".main_txt3");
+
+more.addEventListener("click", () => {
+  videodiv.style.display = "block";
+  video.play();
+
+})
+
+close.addEventListener("click", () => {
+  videodiv.style.display = "none";
+  video.load();
+})
+
 link_aztp.addEventListener("click", () => {
   document.querySelector("#main_page").style.display = "none";
   document.querySelector("#about_us").style.display = "none";

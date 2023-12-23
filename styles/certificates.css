@@ -2,6 +2,8 @@
 #certificates {
     width: 100%;
     height: 100vh;
+
+
 }
 
 #certificates_patents {
@@ -14,7 +16,7 @@
 }
 
 .certificates_background {
-    background-image: url("../images/office\ 1.png");
+    background-image: url("../images/2023\ Sep\ -\ Object\ 03/NRQ_5325 (1).jpg");
     width: 100%;
     height: 100vh;
     margin: 0 auto;
@@ -52,13 +54,20 @@
 
 .certificate_image {
     position: absolute;
-    width: 70px;
+    width: 150px;
     left: 13%;
-    top: 100%;
+    top: 90%;
 }
 
 
 @media(max-width: 800px) {
+    .certificate_image {
+        position: absolute;
+        width: 100px;
+        left: 13%;
+        top: 100%;
+    }
+
     #certificates_patents {
         font-size: 30px;
         width: 80%;
